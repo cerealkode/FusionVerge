@@ -1,0 +1,1 @@
+# yfinance fetch, mpqlfinance for  charting, yolo interface
