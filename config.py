@@ -14,7 +14,7 @@ SUPPORTED_ASSETS = {
 }
 
 # Supported timeframes (yfinance interval strings)
-SUPPORTED_TIMEFRAMES = ["5m", "15m", "30m", "1h", "4h", "1d"]
+SUPPORTED_TIMEFRAMES = ["1h", "4h", "1d"]
 
 # History period per timeframe (yfinance period strings)
 # Shorter timeframes have less available history on yfinance
@@ -63,6 +63,7 @@ PAIR_CURRENCY_EFFECT = {
 # Chart
 CHART_STYLE = "charles"
 CHART_DPI = 150
+CHART_HISTORY = "120d"
 CHART_SAVEPATH = "chart_output.png"
 YOLO_MODEL_REPO = "foduucom/stockmarket-pattern-detection-yolov8"
 YOLO_MODEL_FILE = "model.pt"
@@ -96,7 +97,7 @@ GRU_LR = 0.001
 GRU_BATCH_SIZE = 32
 GRU_EPOCHS = 50
 GRU_PATIENCE = 15
-GRU_SAVEPATH = "models/gru_eurusd_1h.keras" # may require things like models/gru_{pair}_{timeframe}.keras during runtime for later. change accrodingly proabbly
+GRU_SAVEPATH_TEMPLATE = "models/gru_{pair}_{timeframe}.keras" # where we will save the trained and 'best' models for each currency and its timeframe
 
 # Positioning
 MYFXBOOK_URL = "https://www.myfxbook.com/api/get-community-outlook.json"
