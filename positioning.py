@@ -1,1 +1,0 @@
-# myfxbook api fetch, contrarian rule

@@ -1,1 +1,0 @@
-# rss fetching, keyowrd filter, finbert model, currency

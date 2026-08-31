@@ -1,0 +1,225 @@
+pair,timeframe,accuracy,epochs,features,lookback,dropout,gru1,gru2
+EURUSD,1h,57.06174591909156,17,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+EURUSD,1h,57.06174591909156,28,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+EURUSD,1h,57.06174591909156,21,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+EURUSD,1h,57.06174591909156,24,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+EURUSD,1h,57.112375533428164,19,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+EURUSD,1h,57.112375533428164,35,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+EURUSD,1h,57.112375533428164,30,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+EURUSD,1h,57.112375533428164,40,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+EURUSD,1h,56.99077359829666,58,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+EURUSD,1h,56.281050390347765,34,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+EURUSD,1h,57.13271823988645,72,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+EURUSD,1h,56.56493967352733,40,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+EURUSD,1h,57.82361308677098,21,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+EURUSD,1h,56.1877667140825,45,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+EURUSD,1h,57.53911806543386,62,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+EURUSD,1h,56.47226173541963,62,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+EURUSD,1d,81.0916179337232,45,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+EURUSD,1d,79.92202729044834,73,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+EURUSD,1d,80.31189083820662,67,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+EURUSD,1d,80.31189083820662,82,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+EURUSD,1d,80.19607843137256,68,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+EURUSD,1d,80.3921568627451,53,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+EURUSD,1d,80.7843137254902,77,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+EURUSD,1d,80.19607843137256,56,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+EURUSD,1d,52.436647173489284,22,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+EURUSD,1d,79.72709551656921,86,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+EURUSD,1d,80.31189083820662,100,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+EURUSD,1d,52.241715399610136,37,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+EURUSD,1d,54.70588235294118,35,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+EURUSD,1d,79.2156862745098,75,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+EURUSD,1d,79.80392156862746,100,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+EURUSD,1d,80.58823529411765,100,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+GBPUSD,1h,50.78347578347579,36,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+GBPUSD,1h,50.56980056980057,31,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+GBPUSD,1h,50.49857549857549,33,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+GBPUSD,1h,51.566951566951566,21,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+GBPUSD,1h,50.89221984296931,18,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+GBPUSD,1h,50.46395431834404,22,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+GBPUSD,1h,51.962883654532476,17,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+GBPUSD,1h,50.96359743040685,33,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+GBPUSD,1h,51.63817663817664,57,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+GBPUSD,1h,53.205128205128204,42,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+GBPUSD,1h,50.712250712250714,20,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+GBPUSD,1h,51.70940170940172,23,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+GBPUSD,1h,52.60528194147038,39,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+GBPUSD,1h,51.67737330478231,27,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+GBPUSD,1h,52.03426124197003,21,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+GBPUSD,1h,51.82012847965739,35,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+GBPUSD,1d,83.23586744639377,60,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+GBPUSD,1d,82.26120857699804,49,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+GBPUSD,1d,83.23586744639377,87,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+GBPUSD,1d,83.23586744639377,47,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+GBPUSD,1d,82.35294117647058,68,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+GBPUSD,1d,82.74509803921568,43,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+GBPUSD,1d,82.54901960784314,93,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+GBPUSD,1d,81.96078431372548,57,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+GBPUSD,1d,82.65107212475633,87,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+GBPUSD,1d,84.40545808966861,92,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+GBPUSD,1d,83.23586744639377,81,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+GBPUSD,1d,80.89668615984405,78,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+GBPUSD,1d,83.13725490196079,100,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+GBPUSD,1d,84.50980392156863,94,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+GBPUSD,1d,83.52941176470588,100,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+GBPUSD,1d,81.96078431372548,100,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+AUDUSD,1h,52.05673758865248,16,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+AUDUSD,1h,52.05673758865248,16,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+AUDUSD,1h,52.05673758865248,22,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+AUDUSD,1h,52.05673758865248,17,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+AUDUSD,1h,51.954513148543,24,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+AUDUSD,1h,51.954513148543,31,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+AUDUSD,1h,51.954513148543,21,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+AUDUSD,1h,51.954513148543,51,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+AUDUSD,1h,51.98581560283688,37,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+AUDUSD,1h,51.91489361702127,17,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+AUDUSD,1h,53.262411347517734,43,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+AUDUSD,1h,51.56028368794326,16,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+AUDUSD,1h,51.954513148543,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+AUDUSD,1h,52.16773276474769,45,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+AUDUSD,1h,51.741293532338304,53,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+AUDUSD,1h,52.52309879175551,48,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+AUDUSD,1d,80.89668615984405,77,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+AUDUSD,1d,80.7017543859649,74,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+AUDUSD,1d,80.7017543859649,100,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+AUDUSD,1d,80.89668615984405,74,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+AUDUSD,1d,80.58823529411765,91,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+AUDUSD,1d,79.01960784313725,87,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+AUDUSD,1d,80.7843137254902,63,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+AUDUSD,1d,80.98039215686275,84,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+AUDUSD,1d,49.512670565302145,22,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+AUDUSD,1d,50.682261208576996,21,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+AUDUSD,1d,53.021442495126706,47,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+AUDUSD,1d,51.656920077972714,20,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+AUDUSD,1d,50.78431372549019,20,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+AUDUSD,1d,80.19607843137256,60,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+AUDUSD,1d,51.17647058823529,22,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+AUDUSD,1d,50.98039215686274,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+NZDUSD,1h,52.34042553191489,29,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+NZDUSD,1h,52.34042553191489,21,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+NZDUSD,1h,52.34042553191489,19,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+NZDUSD,1h,52.34042553191489,35,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+NZDUSD,1h,52.23880597014925,35,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+NZDUSD,1h,52.45202558635395,49,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+NZDUSD,1h,51.954513148543,31,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+NZDUSD,1h,52.23880597014925,23,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+NZDUSD,1h,51.48936170212765,20,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+NZDUSD,1h,51.98581560283688,31,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+NZDUSD,1h,51.34751773049645,17,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+NZDUSD,1h,52.90780141843972,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+NZDUSD,1h,51.67022032693674,32,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+NZDUSD,1h,52.23880597014925,33,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+NZDUSD,1h,52.38095238095239,24,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+NZDUSD,1h,51.45700071073206,24,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+NZDUSD,1d,77.77777777777779,76,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+NZDUSD,1d,78.3625730994152,94,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+NZDUSD,1d,78.75243664717348,100,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+NZDUSD,1d,78.55750487329435,100,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+NZDUSD,1d,79.2156862745098,100,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+NZDUSD,1d,80.19607843137256,71,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+NZDUSD,1d,80.0,87,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+NZDUSD,1d,79.2156862745098,100,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+NZDUSD,1d,48.927875243664715,23,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+NZDUSD,1d,50.487329434697855,27,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+NZDUSD,1d,50.682261208576996,26,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+NZDUSD,1d,76.60818713450293,100,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+NZDUSD,1d,50.98039215686274,18,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+NZDUSD,1d,49.2156862745098,18,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+NZDUSD,1d,48.8235294117647,22,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+NZDUSD,1d,77.05882352941177,95,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+USDJPY,1h,52.97491039426523,17,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+USDJPY,1h,52.97491039426523,48,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+USDJPY,1h,52.97491039426523,32,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+USDJPY,1h,52.97491039426523,22,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+USDJPY,1h,53.01724137931034,26,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+USDJPY,1h,53.01724137931034,28,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+USDJPY,1h,53.01724137931034,22,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+USDJPY,1h,53.01724137931034,18,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+USDJPY,1h,53.26164874551972,22,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+USDJPY,1h,52.97491039426523,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+USDJPY,1h,52.97491039426523,23,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+USDJPY,1h,52.97491039426523,25,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+USDJPY,1h,51.43678160919541,32,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+USDJPY,1h,55.02873563218391,23,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+USDJPY,1h,53.01724137931034,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+USDJPY,1h,53.01724137931034,18,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+USDJPY,1d,53.41130604288499,24,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+USDJPY,1d,53.41130604288499,16,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+USDJPY,1d,53.41130604288499,24,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+USDJPY,1d,53.41130604288499,21,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+USDJPY,1d,53.13725490196079,26,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+USDJPY,1d,53.13725490196079,18,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+USDJPY,1d,53.13725490196079,19,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+USDJPY,1d,53.13725490196079,19,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+USDJPY,1d,53.41130604288499,24,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+USDJPY,1d,53.41130604288499,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+USDJPY,1d,53.80116959064327,32,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+USDJPY,1d,53.41130604288499,29,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+USDJPY,1d,53.13725490196079,17,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+USDJPY,1d,53.13725490196079,54,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+USDJPY,1d,53.13725490196079,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+USDJPY,1d,53.13725490196079,25,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+USDCHF,1h,51.610594130279175,21,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+USDCHF,1h,51.610594130279175,36,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+USDCHF,1h,51.610594130279175,16,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+USDCHF,1h,51.89692197566214,17,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+USDCHF,1h,51.64992826398852,44,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+USDCHF,1h,51.64992826398852,17,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+USDCHF,1h,52.22381635581061,21,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+USDCHF,1h,51.64992826398852,17,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+USDCHF,1h,51.89692197566214,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+USDCHF,1h,51.96850393700787,17,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+USDCHF,1h,52.5411596277738,67,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+USDCHF,1h,53.54330708661418,76,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+USDCHF,1h,53.012912482066,42,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+USDCHF,1h,52.36728837876614,45,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+USDCHF,1h,52.22381635581061,63,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+USDCHF,1h,52.22381635581061,28,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+USDCHF,1d,83.4307992202729,67,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+USDCHF,1d,80.89668615984405,52,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+USDCHF,1d,82.84600389863547,61,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+USDCHF,1d,82.26120857699804,53,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+USDCHF,1d,82.94117647058825,54,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+USDCHF,1d,80.58823529411765,92,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+USDCHF,1d,82.54901960784314,64,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+USDCHF,1d,82.54901960784314,41,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+USDCHF,1d,50.097465886939574,19,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+USDCHF,1d,51.85185185185185,23,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+USDCHF,1d,51.85185185185185,23,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+USDCHF,1d,51.85185185185185,22,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+USDCHF,1d,51.5686274509804,23,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+USDCHF,1d,51.5686274509804,18,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+USDCHF,1d,51.5686274509804,21,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+USDCHF,1d,51.5686274509804,21,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+USDCAD,1h,52.69503546099291,42,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+USDCAD,1h,51.98581560283688,21,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+USDCAD,1h,51.843971631205676,16,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+USDCAD,1h,50.99290780141844,16,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+USDCAD,1h,52.45202558635395,17,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+USDCAD,1h,50.1776830135039,20,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+USDCAD,1h,52.45202558635395,16,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+USDCAD,1h,51.741293532338304,20,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+USDCAD,1h,52.4822695035461,39,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+USDCAD,1h,55.39007092198581,51,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+USDCAD,1h,53.47517730496454,42,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+USDCAD,1h,53.54609929078015,40,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+USDCAD,1h,54.44207533759773,54,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+USDCAD,1h,53.233830845771145,22,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+USDCAD,1h,54.08670931058991,57,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+USDCAD,1h,54.15778251599147,57,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32
+USDCAD,1d,80.31189083820662,62,"['Open', 'High', 'Low', 'Close']",15,0.2,32,16
+USDCAD,1d,79.14230019493176,51,"['Open', 'High', 'Low', 'Close']",15,0.2,64,32
+USDCAD,1d,78.94736842105263,78,"['Open', 'High', 'Low', 'Close']",15,0.3,32,16
+USDCAD,1d,79.14230019493176,49,"['Open', 'High', 'Low', 'Close']",15,0.3,64,32
+USDCAD,1d,78.82352941176471,69,"['Open', 'High', 'Low', 'Close']",30,0.2,32,16
+USDCAD,1d,78.82352941176471,42,"['Open', 'High', 'Low', 'Close']",30,0.2,64,32
+USDCAD,1d,78.62745098039215,67,"['Open', 'High', 'Low', 'Close']",30,0.3,32,16
+USDCAD,1d,79.2156862745098,61,"['Open', 'High', 'Low', 'Close']",30,0.3,64,32
+USDCAD,1d,58.47953216374269,22,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,32,16
+USDCAD,1d,78.94736842105263,60,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.2,64,32
+USDCAD,1d,55.165692007797276,23,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,32,16
+USDCAD,1d,55.945419103313846,25,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",15,0.3,64,32
+USDCAD,1d,51.5686274509804,25,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,32,16
+USDCAD,1d,44.509803921568626,18,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.2,64,32
+USDCAD,1d,55.09803921568628,21,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,32,16
+USDCAD,1d,76.86274509803923,66,"['Open', 'High', 'Low', 'Close', 'RSI', 'MACD', 'EMA20', 'ATR']",30,0.3,64,32

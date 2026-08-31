@@ -1,0 +1,45 @@
+# Core
+numpy
+pandas
+matplotlib
+json_repair
+
+# Finance data
+yfinance
+mplfinance
+
+# NLP / Sentiment
+transformers
+torch
+huggingface_hub
+
+# Chart / Vision
+ultralytics
+Pillow
+
+# Time-series
+tensorflow
+pandas-ta
+joblib
+scikit-learn
+
+# Fusion
+ollama
+
+# RSS
+feedparser
+
+# Dashboard (Stage 3)
+streamlit
+altair
+
+# Database (Stage 4)
+psycopg2-binary
+
+# Testing
+pytest
+#pytest-mock
+
+# Utilities
+requests
+python-dotenv

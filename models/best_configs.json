@@ -1,0 +1,234 @@
+{
+  "EURUSD_1h": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 30,
+    "dropout": 0.2,
+    "gru1": 32,
+    "gru2": 16,
+    "accuracy": 57.82,
+    "model_path": "models/EURUSD_1h.keras"
+  },
+  "EURUSD_1d": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close"
+    ],
+    "lookback": 15,
+    "dropout": 0.2,
+    "gru1": 32,
+    "gru2": 16,
+    "accuracy": 81.09,
+    "model_path": "models/EURUSD_1d.keras"
+  },
+  "GBPUSD_1h": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 15,
+    "dropout": 0.2,
+    "gru1": 64,
+    "gru2": 32,
+    "accuracy": 53.21,
+    "model_path": "models/GBPUSD_1h.keras"
+  },
+  "GBPUSD_1d": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 30,
+    "dropout": 0.2,
+    "gru1": 64,
+    "gru2": 32,
+    "accuracy": 84.51,
+    "model_path": "models/GBPUSD_1d.keras"
+  },
+  "AUDUSD_1h": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 15,
+    "dropout": 0.3,
+    "gru1": 32,
+    "gru2": 16,
+    "accuracy": 53.26,
+    "model_path": "models/AUDUSD_1h.keras"
+  },
+  "AUDUSD_1d": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close"
+    ],
+    "lookback": 30,
+    "dropout": 0.3,
+    "gru1": 64,
+    "gru2": 32,
+    "accuracy": 80.98,
+    "model_path": "models/AUDUSD_1d.keras"
+  },
+  "NZDUSD_1h": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 15,
+    "dropout": 0.3,
+    "gru1": 64,
+    "gru2": 32,
+    "accuracy": 52.91,
+    "model_path": "models/NZDUSD_1h.keras"
+  },
+  "NZDUSD_1d": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close"
+    ],
+    "lookback": 30,
+    "dropout": 0.2,
+    "gru1": 64,
+    "gru2": 32,
+    "accuracy": 80.2,
+    "model_path": "models/NZDUSD_1d.keras"
+  },
+  "USDJPY_1h": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 30,
+    "dropout": 0.2,
+    "gru1": 64,
+    "gru2": 32,
+    "accuracy": 55.03,
+    "model_path": "models/USDJPY_1h.keras"
+  },
+  "USDJPY_1d": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 15,
+    "dropout": 0.3,
+    "gru1": 32,
+    "gru2": 16,
+    "accuracy": 53.8,
+    "model_path": "models/USDJPY_1d.keras"
+  },
+  "USDCHF_1h": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 15,
+    "dropout": 0.3,
+    "gru1": 64,
+    "gru2": 32,
+    "accuracy": 53.54,
+    "model_path": "models/USDCHF_1h.keras"
+  },
+  "USDCHF_1d": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close"
+    ],
+    "lookback": 15,
+    "dropout": 0.2,
+    "gru1": 32,
+    "gru2": 16,
+    "accuracy": 83.43,
+    "model_path": "models/USDCHF_1d.keras"
+  },
+  "USDCAD_1h": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "RSI",
+      "MACD",
+      "EMA20",
+      "ATR"
+    ],
+    "lookback": 15,
+    "dropout": 0.2,
+    "gru1": 64,
+    "gru2": 32,
+    "accuracy": 55.39,
+    "model_path": "models/USDCAD_1h.keras"
+  },
+  "USDCAD_1d": {
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close"
+    ],
+    "lookback": 15,
+    "dropout": 0.2,
+    "gru1": 32,
+    "gru2": 16,
+    "accuracy": 80.31,
+    "model_path": "models/USDCAD_1d.keras"
+  }
+}
